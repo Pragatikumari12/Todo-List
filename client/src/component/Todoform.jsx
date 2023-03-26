@@ -16,7 +16,7 @@ const Todoform = () => {
     return (
         <form className="form" onSubmit={onFormsubmit}>
             <input
-                placeholder="Enter new todo...."
+                placeholder="Enter New Todo...."
                 className="input"
                 onChange={onInputchange} 
             />
