@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { ADDNEW_TODO } from '../action/type';
 
-const API_URL = 'https://localhost:8000';
+const API_URL = 'http://localhost:8000';
 
 export const addNewTodo = (data) => async (dispatch) => {
     try {
@@ -13,3 +13,4 @@ export const addNewTodo = (data) => async (dispatch) => {
         console.log('Error while calling addNewTodo API ', error.message);
     }
  }
+ 
